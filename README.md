@@ -60,3 +60,11 @@ function finalGrade (exam, projects) {
 ```javascript
 const typeOfSum = (a, b) => typeof(a + b);
 ```
+*https://www.codewars.com/kata/sleigh-authentication/train/javascript
+```javascript
+function Sleigh() {}
+
+Sleigh.prototype.authenticate = function(name, password) {
+  return name === 'Santa Claus' && password === 'Ho Ho Ho!';
+};
+```
