@@ -3,4 +3,9 @@ Hello
 =========
 
 
-ot baldy text
+
+```
+function opposite(number) {
+return (- number);
+}
+```
