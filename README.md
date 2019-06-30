@@ -1,11 +1,12 @@
-Hello
 
-=========
+*https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
 
-
-
-```
-function opposite(number) {
-return (- number);
-}
+         ```javascript
+         var countSheep = function (num) {
+          let newString = '';
+           for (let i = 1; i <= num; i++); {
+            newString = newString + i + 'sheep...';
+           }
+           return newString;
+         }
 ```
