@@ -33,3 +33,11 @@ function chromosomeCheck(sperm) {
   return `Congratulations! You're going to have a ${sperm === 'XY' ? 'son' : 'daughter'}.`
 }
 ```
+*https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/train/javascript
+```javascript
+function updateLight(current) {
+  
+  return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+
+}
+```
