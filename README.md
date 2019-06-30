@@ -68,3 +68,7 @@ Sleigh.prototype.authenticate = function(name, password) {
   return name === 'Santa Claus' && password === 'Ho Ho Ho!';
 };
 ```
+*https://www.codewars.com/kata/switch-it-up/train/javascript
+```javascript
+switchItUp=n=>["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
+```
