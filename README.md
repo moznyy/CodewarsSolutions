@@ -47,3 +47,9 @@ function feast(beast, dish) {
   return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
 }
 ```
+*https://www.codewars.com/kata/simple-multiplication/train/javascript
+```javascript
+ function simpleMultiplication(n){
+  return n % 2 == 0 ? n * 8 : n * 9
+}
+```
