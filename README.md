@@ -15,3 +15,9 @@ function capitalizeWord(word) {
   return word[0].toUpperCase() + word.slice(1);
 }
 ```
+*https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/solutions/javascript
+ ```javascript
+function removeChar(str) {
+  return str.slice(1, -1);
+}
+```
