@@ -41,3 +41,9 @@ function updateLight(current) {
 
 }
 ```
+*https://www.codewars.com/kata/the-feast-of-many-beasts/train/javascript
+```javascript
+function feast(beast, dish) {
+  return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+}
+```
