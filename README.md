@@ -56,3 +56,7 @@ function finalGrade (exam, projects) {
   return 0;
 }
 ```
+*https://www.codewars.com/kata/type-of-sum/train/javascript
+```javascript
+const typeOfSum = (a, b) => typeof(a + b);
+```
