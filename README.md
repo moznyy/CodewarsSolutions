@@ -97,3 +97,29 @@ function getIssuer(number) {
   return 'Unknown'
 }
 ```
+```javascript
+*https://www.codewars.com/kata/create-phone-number/train/javascript
+function createPhoneNumber(numbers){
+  let formatPhone = [];
+  for(let i=0; i<numbers.length; i++){
+    if(i === 0){
+      formatPhone.push('(' + numbers[i]);
+    } else if(i === 2){
+      formatPhone.push(numbers[i] + ')');
+    } else if(i === 3){
+      formatPhone.push(' ' + numbers[i]);
+    } else if(i === 5){
+      formatPhone.push(numbers[i] + '-');
+    } else {
+      formatPhone.push(numbers[i]);
+    }
+  }
+  
+  return formatPhone.join('');
+}
+
+console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])); 
+```
+
+
+ 
