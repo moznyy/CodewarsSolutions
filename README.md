@@ -72,3 +72,11 @@ Sleigh.prototype.authenticate = function(name, password) {
 ```javascript
 switchItUp=n=>["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][n]
 ```
+```javascript
+*https://www.codewars.com/kata/random-case/train/javascript
+function randomCase(x) {
+  return x.split('')
+    .map(function(e) { return Math.random() < 0.5 ? e.toUpperCase() : e.toLowerCase(); })
+    .join('');
+}
+```
