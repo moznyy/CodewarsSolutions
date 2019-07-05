@@ -80,3 +80,11 @@ function randomCase(x) {
     .join('');
 }
 ```
+ ```javascript
+*https://www.codewars.com/kata/alphabet-symmetry/train/javascript
+function solve(arr){  
+  var alphabeth = "abcdefghijklmnopqrstuvwxyz";
+  return arr.map(x => x.toLowerCase().split('').filter((y,i) => i==alphabeth.indexOf(y)).length);
+};
+```
+
