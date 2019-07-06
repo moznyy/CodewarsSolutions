@@ -176,5 +176,25 @@ function averageString(str) {
   return n===0?word[Math.floor(arr/l)]:'n/a'
 }
 ```
+*https://www.codewars.com/kata/are-we-alternate/train/javascript
+```javascript
+function isAlt(word) {
+ 
+  return word.split('').every((v,i)=>{
+  if (/[aeiou]/.test(word[0])){
+    if (i%2===0&&/[aeiou]/.test(v)){
+      return true
+      } else if (i%2!==0&&!/[aeiou]/.test(v)){ return true
+      } else {return false}
+    }
+  if (!/[aeiou]/.test(word[0])){
+    if (i%2==0&&!/[aeiou]/.test(v)){
+      return true
+      } else if (i%2!==0&&/[aeiou]/.test(v)){ return true
+      } else {return false}
+    }
+  })
+}
+```
 
  
