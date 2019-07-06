@@ -133,5 +133,11 @@ function whoIsPaying(name){
 }
 ```
 
+*https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
+```javascript
+function bonusTime(salary, bonus) {
+  return bonus ? `£${10 * salary}` : `£${salary}`;
+}
+```
 
  
