@@ -145,5 +145,12 @@ function greet(name){
   return `Hello, ${name} how are you doing today?`;
 }
 ```
+*https://www.codewars.com/kata/string-ends-with/train/javascript
+```javascript
+
+function solution(str, ending){
+  return new RegExp(ending+"$", "i").test(str);
+}
+```
 
  
