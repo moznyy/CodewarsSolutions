@@ -126,6 +126,12 @@ function noSpace(x){
   return x.replace(/\s/g, '');
 }
 ```
+*https://www.codewars.com/kata/who-is-going-to-pay-for-the-wall/train/javascript
+```javascript
+function whoIsPaying(name){
+ return  name.length <= 2 ? [name] : [name, name.substr(0, 2)];
+}
+```
 
 
  
