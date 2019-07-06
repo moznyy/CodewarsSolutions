@@ -221,5 +221,13 @@ function boolToWord( bool ){
  return bool ? 'Yes':'No';
 }
 ```
+*https://www.codewars.com/kata/fix-string-case/train/javascript
+```javascript
+function solve(s){
+    let up=s.split('').filter(v=>v.match(/[A-Z]/)).length
+    let down=s.split('').filter(v=>v.match(/[a-z]/)).length
+    return down>=up?s.toLowerCase():s.toUpperCase();
+}
+```
 
  
