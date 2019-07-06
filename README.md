@@ -209,5 +209,11 @@ function findShort(s){
     return Math.min(...s.split(" ").map (s => s.length));
 }
 ```
+*https://www.codewars.com/kata/double-char/train/javascript
+```javascript
+function doubleChar(str) {
+  return str.split("").map((letter) => `${letter}${letter}`).join("");
+}
+```
 
  
