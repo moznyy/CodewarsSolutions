@@ -196,5 +196,12 @@ function isAlt(word) {
   })
 }
 ```
+*https://www.codewars.com/kata/ordering-the-words/train/javascript
+```javascript
+
+function orderWord(s){
+ return !s||s.length==0?"Invalid String!":s.split('').sort().join('')
+}
+```
 
  
