@@ -229,5 +229,11 @@ function solve(s){
     return down>=up?s.toLowerCase():s.toUpperCase();
 }
 ```
+*https://www.codewars.com/kata/bit-counting/train/javascript
+```javascript
+var countBits = function(n) {
+  return n.toString(2).replace(/0/g,'').length;
+};
+```
 
  
