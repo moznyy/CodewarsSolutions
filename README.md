@@ -139,5 +139,11 @@ function bonusTime(salary, bonus) {
   return bonus ? `£${10 * salary}` : `£${salary}`;
 }
 ```
+*https://www.codewars.com/kata/returning-strings/train/javascript
+```javascript
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+}
+```
 
  
