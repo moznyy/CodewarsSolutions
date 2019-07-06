@@ -215,5 +215,11 @@ function doubleChar(str) {
   return str.split("").map((letter) => `${letter}${letter}`).join("");
 }
 ```
+*https://www.codewars.com/kata/convert-boolean-values-to-strings-yes-or-no/train/javascript
+```javascript
+function boolToWord( bool ){
+ return bool ? 'Yes':'No';
+}
+```
 
  
