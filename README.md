@@ -203,5 +203,11 @@ function orderWord(s){
  return !s||s.length==0?"Invalid String!":s.split('').sort().join('')
 }
 ```
+*https://www.codewars.com/kata/shortest-word/train/javascript
+```javascript
+function findShort(s){
+    return Math.min(...s.split(" ").map (s => s.length));
+}
+```
 
  
