@@ -241,5 +241,11 @@ function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
 ```
+*https://www.codewars.com/kata/capitalization-and-mutability/train/javascript
+```javascript
+function capitalizeWord(word) {
+  return word[0].toUpperCase() + word.slice(1);
+}
+```
 
  
