@@ -247,5 +247,12 @@ function capitalizeWord(word) {
   return word[0].toUpperCase() + word.slice(1);
 }
 ```
+*https://www.codewars.com/kata/vowel-count/train/javascript
+```javascript
+
+function getCount(str) { 
+   return (str.match(/[aeiou]/ig)||[]).length;
+}
+```
 
  
