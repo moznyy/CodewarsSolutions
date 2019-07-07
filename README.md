@@ -235,5 +235,11 @@ var countBits = function(n) {
   return n.toString(2).replace(/0/g,'').length;
 };
 ```
+*https://www.codewars.com/kata/fake-binary/train/javascript
+```javascript
+function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
+}
+```
 
  
